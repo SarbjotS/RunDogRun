@@ -7,40 +7,47 @@ public class Movement : MonoBehaviour
     private CharacterController controller;
     private Animator animator;
     public Camera MyCamera;
-    public float speed = 5f;
     public float rotationSpeed = 15;
     float DesiredRotation = 0f;
-    private float gravityValue = -9.81f;
+    [SerializeField] public int Score = 0;
 
-    
+    public float speed = 5f;
+
+
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        animator = GetComponent<Animator>(); 
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float x = Input.GetAxisRaw("Horizontal");
-        float z = Input.GetAxisRaw("Vertical");
+        float horizontal = Input.GetAxisRaw("Horizontal"); //A and D key
+                                                           // float vertical = Input.GetAxisRaw("Vertical"); //W and S Key
+        float DogSpeed = 1f;                               //DogSpeed will increase as player keeps moving
+        //DogSpeed = CalcSpeed(Score);
+        ChooseAnim(Score);
+        Vector3 direction = new Vector3(horizontal, 0f, 1f).normalized; //Put 0f on vertical
 
-        Vector3 movement = new Vector3(x, 0, z).normalized;
-
-        Vector3 rotateMovement = Quaternion.Euler(0, MyCamera.transform.rotation.eulerAngles.y, 0) * movement;
-        controller.Move(rotateMovement * speed * Time.deltaTime);
-
-        if (rotateMovement.magnitude > 0)
+        if (direction.magnitude >= 0.1)
         {
-            DesiredRotation = Mathf.Atan2(rotateMovement.x, rotateMovement.z) * Mathf.Rad2Deg;
-            animator.SetFloat("Speed", 1);
+            controller.Move(direction * speed * Time.deltaTime);
         }
+    }
+
+    private void ChooseAnim(int x)
+    {
+        if (x >= 0 && x < 300) {
+            animator.SetBool("isCantoring", true);
+            animator.SetBool("isRunning", false);
+        }
+        else
         {
-            animator.SetFloat("Speed", 0);
+            animator.SetBool("isCantoring", false);
+            animator.SetBool("isRunning", true);
         }
-        Quaternion currentRotation = transform.rotation;
-        Quaternion targetRotation = Quaternion.Euler(0, DesiredRotation, 0);
-        transform.rotation = Quaternion.Lerp(currentRotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
 }
+

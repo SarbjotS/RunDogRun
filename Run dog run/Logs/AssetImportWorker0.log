@@ -1,0 +1,601 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 8053 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Sarbjot Singh/Documents/GitHub/RunDogRun/Run dog run
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50341
+Successfully changed project path to: C:/Users/Sarbjot Singh/Documents/GitHub/RunDogRun/Run dog run
+C:/Users/Sarbjot Singh/Documents/GitHub/RunDogRun/Run dog run
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sarbjot Singh/Documents/GitHub/RunDogRun/Run dog run/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6109
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006392 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.242 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001176 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021E7F830040 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7ECE5040 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F830040 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F3484F0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F1E43F0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87AAD9A0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C875D2020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F25D520 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8822B020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F958020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C88252630 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F1E43F0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1697.
+Total: 3.013500 ms (FindLiveObjects: 0.463000 ms CreateObjectMapping: 0.125600 ms MarkObjects: 2.348400 ms  DeleteObjects: 0.074000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animation/New Animator Controller.controller
+  artifactKey: Guid(67641af865fe5864ba426539c040a31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/New Animator Controller.controller using Guid(67641af865fe5864ba426539c040a31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1129d8ffd8f002527f908cc3e37f58c') in 0.169689 seconds
+  Import took 0.179603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.140203 seconds.
+  path: Assets/BlenderAssets/_DogModelNoFur.fbx
+  artifactKey: Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/_DogModelNoFur.fbx using Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def208ca73eebdf908f15bb8d48dd363') in 1.273561 seconds
+  Import took 1.281669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.394144 seconds.
+  path: Assets/BlenderAssets/_DogModelNoFur.fbx
+  artifactKey: Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/_DogModelNoFur.fbx using Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98d40825817036cc14029b6f497fd7f') in 0.845659 seconds
+  Import took 0.853260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.258989 seconds.
+  path: Assets/BlenderAssets/_DogModelNoFur.fbx
+  artifactKey: Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/_DogModelNoFur.fbx using Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bf9ed53bdfc77c12c070f6edf84f28') in 0.934882 seconds
+  Import took 0.942404 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000958 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021C8A110020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C89750AF0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87AB59B0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F5559B0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F4CA040 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8765A010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F958020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F5C06E0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1744.
+Total: 2.200600 ms (FindLiveObjects: 0.176500 ms CreateObjectMapping: 0.059900 ms MarkObjects: 1.938300 ms  DeleteObjects: 0.023900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2749.079410 seconds.
+  path: Assets/Animation/New Animator Controller.controller
+  artifactKey: Guid(67641af865fe5864ba426539c040a31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/New Animator Controller.controller using Guid(67641af865fe5864ba426539c040a31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d8e4dd6f49140abee8381a7924003e') in 0.098421 seconds
+  Import took 0.102773 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000981 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021C8A33F0C0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8974AED0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C88339020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C88339020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8A675800 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8A480370 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C88E4E020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C88426050 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F33AEE0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8A480370 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C88339020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C89888030 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1746.
+Total: 2.348000 ms (FindLiveObjects: 0.179000 ms CreateObjectMapping: 0.081700 ms MarkObjects: 2.061800 ms  DeleteObjects: 0.024500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.360819 seconds.
+  path: Assets/BlenderAssets/_DogModelNoFur.fbx
+  artifactKey: Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/_DogModelNoFur.fbx using Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db4ac8a1eda56d134be0548b2fd393d') in 0.951289 seconds
+  Import took 0.959998 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021E7F830040 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C89753900 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87AB59B0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F07F0D0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8827F020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C89733070 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8A4155A0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F07F0D0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F5C06E0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1749.
+Total: 2.264700 ms (FindLiveObjects: 0.190800 ms CreateObjectMapping: 0.098000 ms MarkObjects: 1.948200 ms  DeleteObjects: 0.022800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000963 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021E7F830040 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C892CE070 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F2AC010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8ADE2090 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F2B64A0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C89733070 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87D3D010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8ADE2090 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F3A6040 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1751.
+Total: 2.039400 ms (FindLiveObjects: 0.165700 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.798200 ms  DeleteObjects: 0.031200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000979 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021E7F7B2D00 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F984660 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C894001A0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8A480370 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8DACE010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87F5F030 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87D3D010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8A480370 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C876F0020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1753.
+Total: 1.756000 ms (FindLiveObjects: 0.161700 ms CreateObjectMapping: 0.050300 ms MarkObjects: 1.526000 ms  DeleteObjects: 0.016200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001027 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021E7F7B2D00 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C893CCAB0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C894001A0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8E21C010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F2B64A0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87F5F030 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87D3D010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8E21C010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F5C06E0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1755.
+Total: 1.826000 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.593500 ms  DeleteObjects: 0.034000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000972 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021C8D822030 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8A3E28B0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C894001A0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8A480370 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8E1BA020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F07B0C0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87D3D010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8A480370 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C876F0020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1757.
+Total: 3.963800 ms (FindLiveObjects: 0.316300 ms CreateObjectMapping: 0.107300 ms MarkObjects: 3.505700 ms  DeleteObjects: 0.031200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000982 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021C8D822030 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8A3E56C0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C894001A0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8A480370 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8E1BA020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87F5F030 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87D3D010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8A480370 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C876F0020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.158 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1759.
+Total: 7.401100 ms (FindLiveObjects: 0.325400 ms CreateObjectMapping: 0.337600 ms MarkObjects: 6.707600 ms  DeleteObjects: 0.028300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001335 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021E7F830040 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8749C110 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C894001A0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F318020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C8E2CC010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87534040 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021C87D3D010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F318020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F244880 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021E7F5C06E0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1761.
+Total: 2.284500 ms (FindLiveObjects: 0.209400 ms CreateObjectMapping: 0.132000 ms MarkObjects: 1.924200 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11558.337566 seconds.
+  path: Assets/BlenderAssets/_DogModelNoFur.fbx
+  artifactKey: Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/_DogModelNoFur.fbx using Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29ef6d0970554a8c13e380c92be72ce') in 1.281524 seconds
+  Import took 1.289998 seconds .
+
