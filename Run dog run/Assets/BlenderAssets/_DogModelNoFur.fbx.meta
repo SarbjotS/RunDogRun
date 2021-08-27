@@ -140,8 +140,8 @@ ModelImporter:
       name: Run
       takeName: rig|rigAction.001
       internalID: 0
-      firstFrame: 92.43
-      lastFrame: 115
+      firstFrame: 99.69999
+      lastFrame: 111
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

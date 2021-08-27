@@ -19,6 +19,7 @@ public class Movement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
+        animator.SetBool("isCantoring", true); //future: When button pressed to start set animation
     }
 
     // Update is called once per frame
