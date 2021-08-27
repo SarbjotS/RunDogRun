@@ -6,55 +6,49 @@ public class Movement : MonoBehaviour
 {
     private CharacterController controller;
     private Animator animator;
-    private Vector3 playerVelocity;
-    private bool GroundedDog;
-    private bool Walking;
-    private float DogSpeed = 2.0f;
-    private float jumpHeight = 1.0f;
-    private float gravityValue = -9.81f;
-    [SerializeField] private float rotationSpeed = 1.0f;
-    
+    public Camera MyCamera;
+    public float rotationSpeed = 15;
+    float DesiredRotation = 0f;
+    [SerializeField] public int Score = 0;
+
+    public float speed = 5f;
+
+
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        animator = GetComponent<Animator>(); 
+        animator = GetComponent<Animator>();
+        animator.SetBool("isCantoring", true); //future: When button pressed to start set animation
     }
 
     // Update is called once per frame
     void Update()
     {
-        // if (controller.isGrounded && playerVelocity.y < 0) //If player starts going up, put him back down
-        //  {
-        //      playerVelocity.y = 0f;
-        // }
+        float horizontal = Input.GetAxisRaw("Horizontal"); //A and D key
+                                                           // float vertical = Input.GetAxisRaw("Vertical"); //W and S Key
+        float DogSpeed = 1f;                               //DogSpeed will increase as player keeps moving
+        //DogSpeed = CalcSpeed(Score);
+        ChooseAnim(Score);
+        Vector3 direction = new Vector3(horizontal, 0f, 1f).normalized; //Put 0f on vertical
 
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
-
-        Walking = Input.GetKey(KeyCode.LeftShift);
-       // Vector3 movement = new Vector3(x, 0, z).normalized;
-        
-        Vector3 move = transform.forward * DogSpeed * Input.GetAxisRaw("Vertical");
-        controller.Move(move * Time.deltaTime * DogSpeed);
-
-        transform.Rotate(Vector3.up * Input.GetAxisRaw("Horizontal") * rotationSpeed);
-
-        if (move != Vector3.zero)
+        if (direction.magnitude >= 0.1)
         {
-            gameObject.transform.forward = move;
+            controller.Move(direction * speed * Time.deltaTime);
         }
+    }
 
-        if (Input.GetButtonDown("Jump") && controller.isGrounded)
+    private void ChooseAnim(int x)
+    {
+        if (x >= 0 && x < 300) {
+            animator.SetBool("isCantoring", true);
+            animator.SetBool("isRunning", false);
+        }
+        else
         {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
+            animator.SetBool("isCantoring", false);
+            animator.SetBool("isRunning", true);
         }
-
-        playerVelocity.y += gravityValue * Time.deltaTime;
-        controller.Move(playerVelocity * Time.deltaTime);
-
-
-
-        animator.SetBool("Walk", Input.GetAxisRaw("Vertical") != 0);
     }
 }
+
