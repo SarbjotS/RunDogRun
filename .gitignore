@@ -60,3 +60,6 @@ crashlytics-build.properties
 
 BlenderAssets/DogModelBackUp1.fbx
 Run dog run/Temp/UnityLockfile
+*.log
+Run dog run/Library/ArtifactDB
+Run dog run/Library/SourceAssetDB
