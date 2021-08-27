@@ -6,13 +6,12 @@ public class Movement : MonoBehaviour
 {
     private CharacterController controller;
     private Animator animator;
-    private Vector3 playerVelocity;
-    private bool GroundedDog;
-    private bool Walking;
-    private float DogSpeed = 2.0f;
-    private float jumpHeight = 1.0f;
+    public Camera MyCamera;
+    public float speed = 5f;
+    public float rotationSpeed = 15;
+    float DesiredRotation = 0f;
     private float gravityValue = -9.81f;
-    [SerializeField] private float rotationSpeed = 1.0f;
+
     
     // Start is called before the first frame update
     void Start()
@@ -24,37 +23,24 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if (controller.isGrounded && playerVelocity.y < 0) //If player starts going up, put him back down
-        //  {
-        //      playerVelocity.y = 0f;
-        // }
+        float x = Input.GetAxisRaw("Horizontal");
+        float z = Input.GetAxisRaw("Vertical");
 
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
+        Vector3 movement = new Vector3(x, 0, z).normalized;
 
-        Walking = Input.GetKey(KeyCode.LeftShift);
-       // Vector3 movement = new Vector3(x, 0, z).normalized;
-        
-        Vector3 move = transform.forward * DogSpeed * Input.GetAxisRaw("Vertical");
-        controller.Move(move * Time.deltaTime * DogSpeed);
+        Vector3 rotateMovement = Quaternion.Euler(0, MyCamera.transform.rotation.eulerAngles.y, 0) * movement;
+        controller.Move(rotateMovement * speed * Time.deltaTime);
 
-        transform.Rotate(Vector3.up * Input.GetAxisRaw("Horizontal") * rotationSpeed);
-
-        if (move != Vector3.zero)
+        if (rotateMovement.magnitude > 0)
         {
-            gameObject.transform.forward = move;
+            DesiredRotation = Mathf.Atan2(rotateMovement.x, rotateMovement.z) * Mathf.Rad2Deg;
+            animator.SetFloat("Speed", 1);
         }
-
-        if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
+            animator.SetFloat("Speed", 0);
         }
-
-        playerVelocity.y += gravityValue * Time.deltaTime;
-        controller.Move(playerVelocity * Time.deltaTime);
-
-
-
-        animator.SetBool("Walk", Input.GetAxisRaw("Vertical") != 0);
+        Quaternion currentRotation = transform.rotation;
+        Quaternion targetRotation = Quaternion.Euler(0, DesiredRotation, 0);
+        transform.rotation = Quaternion.Lerp(currentRotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
 }

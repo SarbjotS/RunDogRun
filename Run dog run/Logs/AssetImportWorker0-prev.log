@@ -1,0 +1,315 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 8053 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Sarbjot Singh/Documents/GitHub/RunDogRun/Run dog run
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61602
+Successfully changed project path to: C:/Users/Sarbjot Singh/Documents/GitHub/RunDogRun/Run dog run
+C:/Users/Sarbjot Singh/Documents/GitHub/RunDogRun/Run dog run
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sarbjot Singh/Documents/GitHub/RunDogRun/Run dog run/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6109
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004676 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 29.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.608 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000928 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A6E0533410 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A6E05FB010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A6E5A47030 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A6E0444010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A6E0444010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A6E0455620 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A6E0728010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A6E07423C0 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A6E0728010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A6E44BC010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A6E3FC2020 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A6E0728010 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A6E419CA20 doesn't match image C:\Users\Sarbjot Singh\Documents\GitHub\RunDogRun\Run dog run\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.2 MB.
+System memory in use after: 63.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1697.
+Total: 2.739700 ms (FindLiveObjects: 0.178400 ms CreateObjectMapping: 0.503900 ms MarkObjects: 1.985800 ms  DeleteObjects: 0.070800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47cf443bddc682ac2de11ea429897ce') in 0.062532 seconds
+  Import took 0.065601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.496412 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47cf443bddc682ac2de11ea429897ce') in 0.012753 seconds
+  Import took 0.015399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.837501 seconds.
+  path: Assets/BlenderAssets
+  artifactKey: Guid(22ca08457b1841449bbbd878b8dae2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets using Guid(22ca08457b1841449bbbd878b8dae2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc3ddac613f0866208dd473e6482e3b') in 0.057255 seconds
+  Import took 0.061060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.654946 seconds.
+  path: Assets/BlenderAssets/DogModelNoFur.fbx
+  artifactKey: Guid(bb5a1770661074c40baaa94a79c0c8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/DogModelNoFur.fbx using Guid(bb5a1770661074c40baaa94a79c0c8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1d8a4c644c56674dfe1b6df30f5355') in 2.121942 seconds
+  Import took 2.148364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 952.931428 seconds.
+  path: Assets/BlenderAssets/_DogModelNoFur.fbx
+  artifactKey: Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/_DogModelNoFur.fbx using Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2796839c3d04af8534c8f92b505c974') in 3.738041 seconds
+  Import took 3.877884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2122.835993 seconds.
+  path: Assets/Materials/Materials/Black.mat
+  artifactKey: Guid(56a6f7423c7eab24ca7a348d1b21934b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Black.mat using Guid(56a6f7423c7eab24ca7a348d1b21934b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ecad84893f86a270ca201998fbdfe7') in 0.349629 seconds
+  Import took 0.397126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Fur textures pack/Fur 02/Materials/diffuse.mat
+  artifactKey: Guid(f806a74aa9f1520459cc47d447961462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 02/Materials/diffuse.mat using Guid(f806a74aa9f1520459cc47d447961462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee95a1a8c4af6ffa06a812a21bb6b737') in 0.127976 seconds
+  Import took 0.132864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Fur textures pack/Fur 05/Fur pattern 05.mat
+  artifactKey: Guid(95c3038f227daf542b4077b9447429b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 05/Fur pattern 05.mat using Guid(95c3038f227daf542b4077b9447429b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec89281bedb01288a05d5fdae73b7dc') in 0.280467 seconds
+  Import took 0.283610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Fur textures pack/Fur 06/Materials/diffuse.mat
+  artifactKey: Guid(03cef33a8fa623543bc86ce3568bf55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 06/Materials/diffuse.mat using Guid(03cef33a8fa623543bc86ce3568bf55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96466c7df14366723e119fba2783d072') in 0.115852 seconds
+  Import took 0.143779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/Fur textures pack/Fur 04/Fur pattern 04.mat
+  artifactKey: Guid(94e2ae3486c3d104cb060c3eff68ce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 04/Fur pattern 04.mat using Guid(94e2ae3486c3d104cb060c3eff68ce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68d11c59d281f782801027d15a3b029') in 0.123790 seconds
+  Import took 0.280425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000757 seconds.
+  path: Assets/Fur textures pack/Fur 01/Fur pattern 01.mat
+  artifactKey: Guid(da58971c363474248aafb917982d9116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 01/Fur pattern 01.mat using Guid(da58971c363474248aafb917982d9116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08656996276850a31569f2eb81c0005c') in 0.080397 seconds
+  Import took 0.085621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Fur textures pack/Fur 10/Fur pattern 10.mat
+  artifactKey: Guid(f56f36028ec25074093f27b2c8fe82d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 10/Fur pattern 10.mat using Guid(f56f36028ec25074093f27b2c8fe82d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd42e3b178d8417164d0741e75d0027') in 0.100225 seconds
+  Import took 0.103855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Fur textures pack/Fur 06/Fur pattern 06.mat
+  artifactKey: Guid(deb0b15d2c3a3e947896bb6308c61b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 06/Fur pattern 06.mat using Guid(deb0b15d2c3a3e947896bb6308c61b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196c6dcb23949d20eee275c629f3d514') in 0.037678 seconds
+  Import took 0.041705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Fur textures pack/Fur 09/Fur pattern 09.mat
+  artifactKey: Guid(ab40b41f0cb2dfb4688c799d210f712d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 09/Fur pattern 09.mat using Guid(ab40b41f0cb2dfb4688c799d210f712d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53ec894ed12e073ecb62d345248bccc') in 0.239329 seconds
+  Import took 0.242796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Fur textures pack/Fur 03/Fur pattern 03.mat
+  artifactKey: Guid(7be604fc217675a459c69e134f7eeee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 03/Fur pattern 03.mat using Guid(7be604fc217675a459c69e134f7eeee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c38f81fb86692b9aa063c12fa15bf9') in 0.070737 seconds
+  Import took 0.102432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Materials/Materials/White.mat
+  artifactKey: Guid(195071b4428997541b00c6ef595839b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/White.mat using Guid(195071b4428997541b00c6ef595839b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69326e2014d7c74db9233526de2d9740') in 0.077235 seconds
+  Import took 0.079959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Fur textures pack/Fur 01/Materials/normal.mat
+  artifactKey: Guid(0023eb48ecca06f459d48c5c98d8a1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 01/Materials/normal.mat using Guid(0023eb48ecca06f459d48c5c98d8a1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0366ae2ca460f2477eba98789682a4') in 0.061630 seconds
+  Import took 0.067736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Materials/Materials/Dark grey.mat
+  artifactKey: Guid(5913cf671114b064cbdd27558fa78e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Dark grey.mat using Guid(5913cf671114b064cbdd27558fa78e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0210858fe841bc5f38da750d080c4b9f') in 0.151412 seconds
+  Import took 0.153565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Fur textures pack/Fur 01/Materials/diffuse.mat
+  artifactKey: Guid(b325503832c461342915b9d38eefcd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 01/Materials/diffuse.mat using Guid(b325503832c461342915b9d38eefcd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6329c447f69667d51b3bec311bb9653e') in 0.051262 seconds
+  Import took 0.055133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Fur textures pack/Fur 02/Fur pattern 02.mat
+  artifactKey: Guid(13240c2d1b601304daa22bb682371b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 02/Fur pattern 02.mat using Guid(13240c2d1b601304daa22bb682371b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7007f732762a8d36018ef22abfb5130d') in 0.032000 seconds
+  Import took 0.049561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Fur textures pack/Fur 07/Fur pattern 07.mat
+  artifactKey: Guid(242d0b87282b26748a5fb7ab7af8d36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 07/Fur pattern 07.mat using Guid(242d0b87282b26748a5fb7ab7af8d36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22d771e49680885d72d8e6a798c3e86') in 0.057421 seconds
+  Import took 0.060676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Fur textures pack/Fur 08/Fur pattern 08.mat
+  artifactKey: Guid(3ed1b1d2d86e02341923da0123053b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fur textures pack/Fur 08/Fur pattern 08.mat using Guid(3ed1b1d2d86e02341923da0123053b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a36e092fc728fd94de172f2aec7f57e') in 0.039708 seconds
+  Import took 0.042300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.658055 seconds.
+  path: Assets/BlenderAssets/_DogModelNoFur.fbx
+  artifactKey: Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/_DogModelNoFur.fbx using Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af3d463887440305231bc43d4a4298f') in 2.443137 seconds
+  Import took 2.559106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 349.952018 seconds.
+  path: Assets/BlenderAssets/_DogModelNoFur.fbx
+  artifactKey: Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/_DogModelNoFur.fbx using Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2239d1e463217148a6d6300db78c4fe') in 2.603716 seconds
+  Import took 2.763767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1186.816173 seconds.
+  path: Assets/BlenderAssets/Body.controller
+  artifactKey: Guid(056455a6aa707f94295212ebd15839d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/Body.controller using Guid(056455a6aa707f94295212ebd15839d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f392227c7ec2e06adc81a0363b724d') in 0.122507 seconds
+  Import took 0.150696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4276.465476 seconds.
+  path: Assets/BlenderAssets/_DogModelNoFur.fbx
+  artifactKey: Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlenderAssets/_DogModelNoFur.fbx using Guid(2a3fd0590f75bba449aafddbc601eb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ea36d6ff3e1afbe9e47f33cd017564') in 1.551406 seconds
+  Import took 1.585309 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
