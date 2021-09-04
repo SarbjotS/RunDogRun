@@ -167,15 +167,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roadPrefabs:
-  - {fileID: 1952644093439628438, guid: e65b3421ce9d0584ba31a05eeb47908d, type: 3}
-  - {fileID: 6925553901104343702, guid: de2b013d815af104392b51bf7bfdc381, type: 3}
-  - {fileID: 1128601796348283918, guid: a46212fcd1121d641b928cf9999b2355, type: 3}
-  - {fileID: 7295727529586510257, guid: 069564d6f5d785546b57a0830bf7cce4, type: 3}
-  - {fileID: 1216557791174106422, guid: 7abb100ab52123e46983c7a3061bb61a, type: 3}
-  - {fileID: 663507910960120233, guid: 6dc8072cb6f1f5d4a8537b739b311baa, type: 3}
-  - {fileID: 359674678508168742, guid: 113915ea6f6c67540b805515edbd3f1d, type: 3}
+  - {fileID: 7832783803748684994, guid: e65b3421ce9d0584ba31a05eeb47908d, type: 3}
+  - {fileID: 2028394875839950289, guid: de2b013d815af104392b51bf7bfdc381, type: 3}
+  - {fileID: 8959569538731432686, guid: a46212fcd1121d641b928cf9999b2355, type: 3}
+  - {fileID: 3752239337282628331, guid: 069564d6f5d785546b57a0830bf7cce4, type: 3}
+  - {fileID: 4228531729213698808, guid: 7abb100ab52123e46983c7a3061bb61a, type: 3}
+  - {fileID: 2819410847780827145, guid: 6dc8072cb6f1f5d4a8537b739b311baa, type: 3}
+  - {fileID: 4280394839508738206, guid: 113915ea6f6c67540b805515edbd3f1d, type: 3}
   RoadWorks: 0
-  Length: 67.5
+  Length: 55
   NextRoad: 0
 --- !u!1 &1255854291
 GameObject:
@@ -8646,7 +8646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3041510481720505081}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.15, y: 0.15, z: -3.17}
+  m_LocalPosition: {x: -48.84, y: 0, z: -22}
   m_LocalScale: {x: 0.17693, y: 0.17693, z: 0.17693}
   m_Children:
   - {fileID: 1255854294}

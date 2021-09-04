@@ -24,7 +24,7 @@ public class InfiniteRoads : MonoBehaviour
     public void spawnTile(int i)
     {
         
-        Instantiate(roadPrefabs[i], new Vector3(50,0,NextRoad), Quaternion.Euler(0,90,0));
+        Instantiate(roadPrefabs[i], new Vector3(0,0,NextRoad), Quaternion.Euler(0,90,0));
         NextRoad += Length;
     }
 }
