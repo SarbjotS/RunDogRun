@@ -8,8 +8,9 @@ public class Movement : MonoBehaviour
     private Animator animator;
     public Camera MyCamera;
     public float rotationSpeed = 15;
-    float DesiredRotation = 0f;
-    [SerializeField] public int Score = 0;
+    private float gravity = -9.81f;
+    Vector3 YPos;
+     [SerializeField] public int Score = 0;
 
     public float speed = 5f;
 
@@ -28,10 +29,20 @@ public class Movement : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal"); //A and D key
                                                            // float vertical = Input.GetAxisRaw("Vertical"); //W and S Key
         float DogSpeed = 1f;                               //DogSpeed will increase as player keeps moving
+        if (!controller.isGrounded)
+        {
+            YPos.y += gravity * Time.deltaTime;
+        }
+        else
+        {
+            YPos.y = 0;
+        }
+        controller.Move(YPos * Time.deltaTime);
+
         //DogSpeed = CalcSpeed(Score);
         ChooseAnim(Score);
-        Vector3 direction = new Vector3(horizontal, 0f, 1f).normalized; //Put 0f on vertical
-
+        Vector3 direction = new Vector3(horizontal, 0, 1f).normalized; //Put 0f on vertical
+     
         if (direction.magnitude >= 0.1)
         {
             controller.Move(direction * speed * Time.deltaTime);
