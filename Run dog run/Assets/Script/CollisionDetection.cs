@@ -9,6 +9,8 @@ public class CollisionDetection : MonoBehaviour
     {
         if (collision.collider.tag == "Eat")
         {
+            Debug.Log("Touched");
+            Destroy(gameObject);
             mov.FoodCount += 1;
         }
     }

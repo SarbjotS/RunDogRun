@@ -22,7 +22,14 @@ public class Movement : MonoBehaviour
     private float gravity = -9.81f;
     Vector3 YPos;
 
-
+   // private void OnCollisionEnter(Collision collision)
+   // {
+     //   if (collision.collider.tag == "Eat")
+      //  {
+       //     Debug.Log("touched");
+        //    FoodCount += 1;
+       // }
+   // }
     // Start is called before the first frame update
     void Start()
     {
