@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Avoid
+  - Eat
   layers:
   - Default
   - TransparentFX

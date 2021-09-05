@@ -1,34 +1,52 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Movement : MonoBehaviour
 {
-    private CharacterController controller;
+    [Header("Animation + Camera")]
     private Animator animator;
     public Camera MyCamera;
-    public float rotationSpeed = 15;
+
+    [Header("Score")]
+    public int Score = 0;
+    public int FoodCount = 0;
+
+    bool Starting = true;
+
+    [Header("Movement + Gravity")]
+    public float speed = 0f;
+    private CharacterController controller;
     private float gravity = -9.81f;
     Vector3 YPos;
-     [SerializeField] public int Score = 0;
 
-    public float speed = 5f;
-
-
+    [Header("Text")]
+    public Text ScoreText;
+    public Text FoodText;
+    public Text GameOverManGameOver;
+    // private void OnCollisionEnter(Collision collision)
+    // {
+    //   if (collision.collider.tag == "Eat")
+    //  {
+    //     Debug.Log("touched");
+    //    FoodCount += 1;
+    // }
+    // }
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
-        animator.SetBool("isCantoring", true); //future: When button pressed to start set animation
+        animator.SetBool("Idle", true); //future: When button pressed to start set animation
     }
 
     // Update is called once per frame
     void Update()
     {
-        float horizontal = Input.GetAxisRaw("Horizontal"); //A and D key
-                                                           // float vertical = Input.GetAxisRaw("Vertical"); //W and S Key
-        float DogSpeed = 1f;                               //DogSpeed will increase as player keeps moving
+
+        
+        //Gravity
         if (!controller.isGrounded)
         {
             YPos.y += gravity * Time.deltaTime;
@@ -37,29 +55,73 @@ public class Movement : MonoBehaviour
         {
             YPos.y = 0;
         }
+
+        //Movement
+        float horizontal = Input.GetAxisRaw("Horizontal");
+
         controller.Move(YPos * Time.deltaTime);
 
-        //DogSpeed = CalcSpeed(Score);
-        ChooseAnim(Score);
         Vector3 direction = new Vector3(horizontal, 0, 1f).normalized; //Put 0f on vertical
-     
+
         if (direction.magnitude >= 0.1)
         {
             controller.Move(direction * speed * Time.deltaTime);
         }
-    }
 
-    private void ChooseAnim(int x)
-    {
-        if (x >= 0 && x < 300) {
-            animator.SetBool("isCantoring", true);
-            animator.SetBool("isRunning", false);
+        //Score
+        if (Starting)
+        {
+            ScoreText.text = "Press any key to start!";
+            FoodText.text = "Collect food, avoid everything else!";
+            GameOverManGameOver.text = "";
+            animator.SetBool("Idle", true);
+
         }
         else
         {
-            animator.SetBool("isCantoring", false);
-            animator.SetBool("isRunning", true);
+            Score = (int)controller.transform.position.z;
+            ScoreText.text = Score.ToString();
+            FoodText.text = "Eaten: " + FoodCount;
+            animator.SetBool("isCantoring", true);
+
         }
+        //ChooseAnim(speed);
+        if (Input.anyKeyDown && Score == 0)
+        {
+            Starting = false;
+            animator.SetBool("Idle", false);
+            speed = 5f;
+        }
+        if (Score%50 == 0 && Score!=0)
+        {
+            speed += 0.1f;
+        }
+
+        if(speed == 0 && !Starting)
+        {
+            animator.SetBool("Idle", true);
+            animator.SetBool("isCantoring", false);
+
+        }
+        if (Input.GetKeyDown(KeyCode.Minus))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        }
+
     }
+
+    //private void ChooseAnim(float x)
+   // {
+        //if (x >= 7.5) {
+     //       animator.SetBool("isCantoring", true);
+            //animator.SetBool("isRunning", true); Will renable when running animation looks less wonky 
+        //}
+    //}
 }
 
