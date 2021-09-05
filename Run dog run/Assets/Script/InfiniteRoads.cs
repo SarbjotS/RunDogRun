@@ -14,9 +14,11 @@ public class InfiniteRoads : MonoBehaviour
     private List<GameObject> RoadPieces = new List<GameObject>();
     void Start()
     {
+
+        spawnTile(0); //Made mistake with placement of tile and DogModel so first tile must have no pickups
         for (int i = 0; i< num; i++)
         {
-            spawnTile(Random.Range(0, roadPrefabs.Length));
+            spawnTile(Random.Range(1, roadPrefabs.Length));
         }
     }
 
@@ -25,6 +27,7 @@ public class InfiniteRoads : MonoBehaviour
     {
         if (playT.position.z>nextRoad)
         {
+
             spawnTile(Random.Range(0, roadPrefabs.Length));
             nextRoad += 65;
             RemoveLastRoadPiece();

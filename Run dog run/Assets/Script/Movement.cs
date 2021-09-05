@@ -11,10 +11,11 @@ public class Movement : MonoBehaviour
 
     [Header("Score")]
     int Score = 0;
-    public Text ScoreText; 
+    public Text ScoreText;
+    bool Starting = true;
 
     [Header("Movement + Gravity")]
-    public float speed = 5f;
+    public float speed = 0f;
     private CharacterController controller;
     private float gravity = -9.81f;
     Vector3 YPos;
@@ -25,7 +26,7 @@ public class Movement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
-        animator.SetBool("isCantoring", true); //future: When button pressed to start set animation
+        animator.SetBool("Idle", true); //future: When button pressed to start set animation
     }
 
     // Update is called once per frame
@@ -58,9 +59,23 @@ public class Movement : MonoBehaviour
         }
 
         //Score
-        ScoreText.text = controller.transform.position.z.ToString("0") +"23";
+        if (Starting)
+        {
+            ScoreText.text = "Press any key to start!";
+        }
+        else
+        {
+            Score = (int)controller.transform.position.z;
+            ScoreText.text = Score.ToString();
+        }
         ChooseAnim(Score);
-
+        if (Input.anyKeyDown)
+        {
+            Starting = false;
+            animator.SetBool("Idle", false);
+            animator.SetBool("isCantoring", true);
+            speed = 5f;
+        }
     }
 
     private void ChooseAnim(int x)

@@ -270,7 +270,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1048468140
 GameObject:
@@ -312,7 +312,7 @@ MonoBehaviour:
   RoadWorks: 0
   Length: 67.65
   NextRoad: 0
-  num: 3
+  num: 2
   playT: {fileID: 7480035201451044629}
 --- !u!4 &1048468142
 Transform:
@@ -355,14 +355,14 @@ RectTransform:
   m_GameObject: {fileID: 1236501981}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.13368969, y: 0.13368969, z: 0.13368969}
   m_Children: []
   m_Father: {fileID: 1526947959}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 293}
+  m_AnchoredPosition: {x: 30, y: -556}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236501983
@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: 1526947957}
   - component: {fileID: 1526947956}
   m_Layer: 5
-  m_Name: Score
+  m_Name: ScoreCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -465,7 +465,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1526947958
 Canvas:
   m_ObjectHideFlags: 0
@@ -475,8 +475,8 @@ Canvas:
   m_GameObject: {fileID: 1526947955}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 2
+  m_Camera: {fileID: 319563737}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -494,19 +494,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526947955}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 305.76346}
+  m_LocalScale: {x: 3.3286521, y: 3.3286521, z: 3.3286521}
   m_Children:
   - {fileID: 1236501982}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 7480035201451044629}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -80.43805, y: 1872.2175}
+  m_SizeDelta: {x: 800, y: 1125.6785}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &5816494120934146
 Transform:
   m_ObjectHideFlags: 0
@@ -3695,7 +3695,7 @@ Transform:
   - {fileID: 7056010592112837441}
   - {fileID: 7074068974485792504}
   m_Father: {fileID: 7480035201451044629}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &989586578732278549
 MeshRenderer:
@@ -4812,7 +4812,7 @@ Transform:
   m_Children:
   - {fileID: 7544921357004082802}
   m_Father: {fileID: 7480035201451044629}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1264778752875160726
 Transform:
@@ -16723,7 +16723,7 @@ Transform:
   m_LocalScale: {x: 37.17874, y: 118.49874, z: 56.58793}
   m_Children: []
   m_Father: {fileID: 7480035201451044629}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4908506172393821927
 GameObject:
@@ -17906,7 +17906,7 @@ Transform:
   - {fileID: 8372411385203158182}
   - {fileID: 2159615597133653196}
   m_Father: {fileID: 7480035201451044629}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &5272647935428138995
 MeshRenderer:
@@ -25450,7 +25450,7 @@ Transform:
   - {fileID: 9079975384362180808}
   - {fileID: 8442241105492599894}
   m_Father: {fileID: 7480035201451044629}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &7402234179402695129
 MeshRenderer:
@@ -25773,6 +25773,7 @@ Transform:
   m_LocalScale: {x: 0.1798776, y: 0.1798776, z: 0.1798776}
   m_Children:
   - {fileID: 319563735}
+  - {fileID: 1526947959}
   - {fileID: 4908470426963671941}
   - {fileID: 1259870874877137666}
   - {fileID: 5264147247023132100}
@@ -27022,7 +27023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyCamera: {fileID: 319563737}
   ScoreText: {fileID: 1236501983}
-  speed: 5
+  speed: 0
 --- !u!143 &7819863921406801329
 CharacterController:
   m_ObjectHideFlags: 0
@@ -29936,7 +29937,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 7480035201451044629}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &8846828734094338726
 MeshRenderer:
