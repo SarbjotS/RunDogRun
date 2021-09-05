@@ -12,8 +12,7 @@ public class Movement : MonoBehaviour
     [Header("Score")]
     public int Score = 0;
     public int FoodCount = 0;
-    public Text ScoreText;
-    public Text FoodText;
+
     bool Starting = true;
 
     [Header("Movement + Gravity")]
@@ -22,14 +21,18 @@ public class Movement : MonoBehaviour
     private float gravity = -9.81f;
     Vector3 YPos;
 
-   // private void OnCollisionEnter(Collision collision)
-   // {
-     //   if (collision.collider.tag == "Eat")
-      //  {
-       //     Debug.Log("touched");
-        //    FoodCount += 1;
-       // }
-   // }
+    [Header("Text")]
+    public Text ScoreText;
+    public Text FoodText;
+    public Text GameOverManGameOver;
+    // private void OnCollisionEnter(Collision collision)
+    // {
+    //   if (collision.collider.tag == "Eat")
+    //  {
+    //     Debug.Log("touched");
+    //    FoodCount += 1;
+    // }
+    // }
     // Start is called before the first frame update
     void Start()
     {
@@ -72,6 +75,7 @@ public class Movement : MonoBehaviour
         {
             ScoreText.text = "Press any key to start!";
             FoodText.text = "Collect food, avoid everything else!";
+            GameOverManGameOver.text = "";
             animator.SetBool("Idle", true);
 
         }
@@ -95,6 +99,12 @@ public class Movement : MonoBehaviour
             speed += 0.1f;
         }
 
+        if(speed == 0 && !Starting)
+        {
+            animator.SetBool("Idle", true);
+            animator.SetBool("isCantoring", false);
+
+        }
 
     }
 
