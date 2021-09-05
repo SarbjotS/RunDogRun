@@ -10,8 +10,10 @@ public class Movement : MonoBehaviour
     public Camera MyCamera;
 
     [Header("Score")]
-    int Score = 0;
+    public int Score = 0;
+    public int FoodCount = 0;
     public Text ScoreText;
+    public Text FoodText;
     bool Starting = true;
 
     [Header("Movement + Gravity")]
@@ -62,24 +64,31 @@ public class Movement : MonoBehaviour
         if (Starting)
         {
             ScoreText.text = "Press any key to start!";
+            FoodText.text = "Collect food, avoid everything else!";
+            animator.SetBool("Idle", true);
+
         }
         else
         {
             Score = (int)controller.transform.position.z;
             ScoreText.text = Score.ToString();
+            FoodText.text = "Eaten: " + FoodCount;
+            animator.SetBool("isCantoring", true);
+
         }
         //ChooseAnim(speed);
         if (Input.anyKeyDown && Score == 0)
         {
             Starting = false;
             animator.SetBool("Idle", false);
-            animator.SetBool("isCantoring", true);
             speed = 5f;
         }
         if (Score%50 == 0 && Score!=0)
         {
             speed += 0.1f;
         }
+
+
     }
 
     //private void ChooseAnim(float x)
