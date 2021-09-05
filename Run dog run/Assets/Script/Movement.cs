@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class Movement : MonoBehaviour
 {
     [Header("Animation + Camera")]
@@ -59,8 +59,6 @@ public class Movement : MonoBehaviour
         //Movement
         float horizontal = Input.GetAxisRaw("Horizontal");
 
-        float DogSpeed = 1f;
-
         controller.Move(YPos * Time.deltaTime);
 
         Vector3 direction = new Vector3(horizontal, 0, 1f).normalized; //Put 0f on vertical
@@ -103,6 +101,16 @@ public class Movement : MonoBehaviour
         {
             animator.SetBool("Idle", true);
             animator.SetBool("isCantoring", false);
+
+        }
+        if (Input.GetKeyDown(KeyCode.Minus))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
         }
 

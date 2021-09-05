@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Not used, keeping it just in case
 public class CollisionDetection : MonoBehaviour
 {
     public Movement mov;
