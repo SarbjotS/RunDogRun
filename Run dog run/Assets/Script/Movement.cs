@@ -68,27 +68,26 @@ public class Movement : MonoBehaviour
             Score = (int)controller.transform.position.z;
             ScoreText.text = Score.ToString();
         }
-        ChooseAnim(Score);
-        if (Input.anyKeyDown)
+        //ChooseAnim(speed);
+        if (Input.anyKeyDown && Score == 0)
         {
             Starting = false;
             animator.SetBool("Idle", false);
             animator.SetBool("isCantoring", true);
             speed = 5f;
         }
+        if (Score%50 == 0 && Score!=0)
+        {
+            speed += 0.1f;
+        }
     }
 
-    private void ChooseAnim(int x)
-    {
-        if (x >= 0 && x < 300) {
-            animator.SetBool("isCantoring", true);
-            animator.SetBool("isRunning", false);
-        }
-        else
-        {
-            animator.SetBool("isCantoring", false);
-            animator.SetBool("isRunning", true);
-        }
-    }
+    //private void ChooseAnim(float x)
+   // {
+        //if (x >= 7.5) {
+     //       animator.SetBool("isCantoring", true);
+            //animator.SetBool("isRunning", true); Will renable when running animation looks less wonky 
+        //}
+    //}
 }
 
